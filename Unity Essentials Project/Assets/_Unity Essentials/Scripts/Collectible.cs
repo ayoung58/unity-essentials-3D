@@ -23,8 +23,10 @@ public class Collectible : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other) {
-        Instantiate(onCollectEffect,transform.position,transform.rotation);
-        // Destroy the collectible
-        Destroy(gameObject);
+        if (other.CompareTag("Player")){
+            Instantiate(onCollectEffect,transform.position,transform.rotation);
+            // Destroy the collectible
+            Destroy(gameObject);
+        }
     }
 }
