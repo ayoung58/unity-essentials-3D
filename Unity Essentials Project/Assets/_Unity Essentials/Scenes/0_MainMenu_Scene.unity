@@ -708,6 +708,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlockTower
       objectReference: {fileID: 0}
+    - target: {fileID: 7523127572259890885, guid: 1d9b7cc71c49bde4c9c79e97105c4c06,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -797,7 +802,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 636583071807336278, guid: 22fb10578c588472d917dc83459aa28c, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2107724201855411443, guid: 22fb10578c588472d917dc83459aa28c,
@@ -2697,6 +2703,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Collectible_Cheese
+      objectReference: {fileID: 0}
+    - target: {fileID: 6377258028714927797, guid: f287407812e9f4dd295b424507a4c279,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8251487482310632346, guid: f287407812e9f4dd295b424507a4c279,
         type: 3}
